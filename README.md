@@ -1,7 +1,7 @@
-Norbit
+N <img src="Norbit_logo.jpeg" alt="drawing" width="50" align="top"/>
 ==========
 
-*Yet another (lite) toy N-body simulation*
+*Norbit - yet another (lite) toy N-body simulation*
 --------------------
 
 This mini package provides a proof-of-concept of N-body simulations of systems that evolve under only gravitational forces.
