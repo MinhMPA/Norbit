@@ -11,7 +11,7 @@ This mini package provides a proof-of-concept of N-body simulations of systems t
 ## Currently Implemented Features
 
 
-- Direct summation for force evaluation (which scales as $\mathcal{O}(N^2)$)
+- Direct summation for force evaluation, which scales as <img src="https://latex.codecogs.com/gif.latex?\mathcal{O}(N^2)" title="\mathcal{O}(N^2)" />
 - 2nd-order symplectic and 4th-order non-symplectic integrators
 
 ## Examples
