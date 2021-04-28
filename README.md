@@ -14,7 +14,7 @@ This mini package provides a proof-of-concept of N-body simulations of systems t
 
 ## Examples
 
-- An example of initial conditions for the Outer Solar System is provided at `./examples/initial_conditions_outer_solar.py`
+- An example of initial conditions for the Outer Solar System is provided at `./examples/initial_conditions_outer_solar.py`. The example is taken from section I.2.4 of <a href=”https://link.springer.com/book/10.1007/3-540-30666-8”> Geometric Numerical Integration, Hairer 2006</a>.
 - For more details, please see the notebook `./Norbit_demo.ipynb`
 
 ![KDK_leapfrog_epsilon10days](./examples/Example_of_Orbits_in_Outer_Solar_System.png)
