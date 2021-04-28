@@ -1,4 +1,4 @@
-N <img src="Norbit_logo.jpeg" alt="drawing" width="50" align="top"/>
+N <img src="Norbit_logo.jpeg" alt="drawing" width="35" align="top"/>
 ==========
 
 *Norbit - yet another (lite) toy N-body simulation*
