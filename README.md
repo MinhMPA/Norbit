@@ -6,6 +6,8 @@ N <img src="Norbit_logo.jpeg" alt="drawing" width="35" align="top"/>
 
 This mini package provides a proof-of-concept of N-body simulations of systems that evolve under only gravitational forces.
 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) ![](https://img.shields.io/github/commit-activity/m/MinhMPA/Norbit) ![](https://img.shields.io/github/last-commit/MinhMPA/Norbit)
 
 ## Currently Implemented Features
