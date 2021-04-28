@@ -9,6 +9,9 @@ G = 2.95912208286E-4 # gravitational constant
 
 @nb.jit
 def dVdq(q,mass):
+    """
+    This function provides the partial derivatives of the gravitational potential w.r.t. positions
+    """
     dVdq = np.zeros_like(q)
     for i in nb.prange(mass.shape[0]):
         for j in nb.prange(mass.shape[0]):
@@ -20,6 +23,9 @@ def dVdq(q,mass):
 
 @nb.jit
 def f(w,mass):
+    """
+    This function provides the Hamiltonian equations in the suitable form for Runge-Kutta methods
+    """
     f = np.zeros_like(w)
     f[0,...] = w[1,...]
     for i in nb.prange(mass.shape[0]):
