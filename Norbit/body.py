@@ -1,3 +1,5 @@
+import astropy.units as au
+
 class Body():
     """
     Class of bodies or particles in Simulations.
@@ -20,9 +22,9 @@ class Body():
         self.name= name
         self.units = units
         if self.units:
-            self.mass = mass.astrophys
-            self.position = position.astrophys.value
-            self.velocity = velocity.astrophys.value
+            self.mass = mass.to(au.solMass).value
+            self.position = position.to(au.AU).value
+            self.velocity = velocity.to(au.AU/au.day).value
         else:
             self.mass = mass
             self.position = position

@@ -61,8 +61,8 @@ class OrbitSimulation():
         if not hasattr(self,'Hamiltonian_eqs'):
                 raise AttributeError('You might want to specify Hamiltonian equations of motion.')
         if self.units:
-            T = T.astrophysics.value
-            epsilon = epsilon.astrophysics.value
+            T = T.to(au.day).value
+            epsilon = epsilon.to(au.day).value
 
         N_steps = np.uint(T/epsilon)
         for step in tqdm(range(N_steps), total=N_steps):

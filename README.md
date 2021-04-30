@@ -12,9 +12,15 @@ This mini package provides a proof-of-concept of N-body simulations of systems t
 
 ## Currently Implemented Features
 
-
 - Direct summation for force evaluation, which scales as <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\mathcal{O}(N^2)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\inline&space;\large&space;\mathcal{O}(N^2)" title="\large \mathcal{O}(N^2)" /></a>
 - 2nd-order symplectic and 4th-order non-symplectic integrator (Runge-Kutta)
+
+## Code Unit
+
+- Currently, the standard unit adopted by the code is as follows:
+	- Mass: Solar Mass
+	- Time: Day
+	- Length/Distance: AU
 
 ## Examples
 
